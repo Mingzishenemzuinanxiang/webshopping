@@ -1,0 +1,324 @@
+{
+  "keys": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+  "middleware": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+      "port": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+      "hostname": "D:\\wokepoj\\shopping\\server\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "mapping": {
+      ".html": "D:\\wokepoj\\shopping\\server\\config\\config.default.js"
+    },
+    "root": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
+    "cache": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view@2.1.3@egg-view\\config\\config.default.js"
+  },
+  "mongoose": {
+    "client": {
+      "url": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+      "options": "D:\\wokepoj\\shopping\\server\\config\\config.default.js"
+    },
+    "open": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "url": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-mongoose@3.3.1@egg-mongoose\\config\\config.default.js",
+    "options": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-mongoose@3.3.1@egg-mongoose\\config\\config.default.js",
+    "plugins": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-mongoose@3.3.1@egg-mongoose\\config\\config.default.js",
+    "loadModel": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-mongoose@3.3.1@egg-mongoose\\config\\config.default.js",
+    "app": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-mongoose@3.3.1@egg-mongoose\\config\\config.default.js",
+    "agent": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-mongoose@3.3.1@egg-mongoose\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "domainWhiteList": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "policy": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "key": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "maxAge": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "overwrite": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "httpOnly": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "signed": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "rolling": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "renew": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "encrypt": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "jsonLimit": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "encoding": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "formLimit": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "textLimit": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "strict": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "depth": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "jwt": {
+    "secret": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+    "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-jwt@3.1.7@egg-jwt\\config\\config.default.js"
+  },
+  "url": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+  "uploadDir": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+  "secret": "D:\\wokepoj\\shopping\\server\\config\\config.default.js",
+  "helper": {
+    "shtml": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js",
+      "file": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-schedule@3.6.6@egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "files": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "cache": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.local.js",
+    "debug": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "delimiter": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "strict": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "name": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "cookies": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "proxy": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "version": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "description": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "private": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-cors": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-jwt": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-mongoose": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-scripts": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-view-ejs": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "md5": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "mz-modules": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "request": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "silly-datetime": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "svg-captcha": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "autod-egg": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-bin": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-ci": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "egg-mock": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "eslint": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "webstorm-disable-index": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "stop": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "dev": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "debug": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "test": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "test-local": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "cov": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "lint": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "ci": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "autod": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "url": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "author": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "license": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "HOME": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "rundir": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "notFound": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "sitefile": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "middlewares": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "httpClient": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "encoding": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "env": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "level": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "outputJSON": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "buffer": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "appLogName": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "coreLogName": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "agentLogName": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "errorLogName": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "maxSockets": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "logging": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\wokepoj\\shopping\\server\\node_modules\\_egg@2.29.1@egg\\config\\config.default.js"
+}
