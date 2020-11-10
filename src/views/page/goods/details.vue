@@ -22,11 +22,7 @@
           <van-col span="8">剩余: 1000</van-col>
           <van-col span="8"
             >收藏：
-            <van-icon
-              v-if="isCollection === 0"
-              name="like-o"
-              @click="collection"
-            />
+            <van-icon v-if="!isCollection" name="like-o" @click="collection" />
             <van-icon
               class="red"
               v-else-if="isCollection > 0"
@@ -55,7 +51,7 @@ export default {
     return {
       goods: [],
       details: [],
-      isCollection: null,
+      isCollection: 0,
     };
   },
   components: {
@@ -80,6 +76,7 @@ export default {
       this.$api.getGoodsData(id).then((res) => {
         this.goods = res.goods;
         this.details = res.goods.goodsOne;
+        this.getshoucang();
       });
     },
     //是否收藏
@@ -89,22 +86,15 @@ export default {
         if (res.code === 200 && !Object.is(info, res.userInfo)) {
           localStorage.setItem("user", JSON.stringify(res.userInfo));
         }
-        this.$api.getisCollection({ id: this.details.id }).then((res) => {
-          this.isCollection = res.isCollection;
-        });
+      });
+      this.$api.getisCollection({ id: this.details.id }).then((res) => {
+        this.isCollection = res.isCollection;
       });
     },
     //内部方法
   },
   mounted() {
     this.getData(this.$route.query.id);
-    this.getshoucang();
-    //  this.$api.getloginOut().then(res=>{
-    //    console.log(res);
-    //  })
-    // this.getData(
-    //   "238bc2e023844769a6b67d9a4c04b2ea"
-    // );
     //生命周期--已加载
   },
   computed: {

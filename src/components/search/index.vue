@@ -3,8 +3,8 @@
     <van-row>
       <!-- 地址栏 -->
       <van-col span="5">
-        <div>
-          <span class="font-s"
+        <div class="map">
+          <span class="font-s font-weizhi"
             >{{ address.city }} <van-icon name="location"
           /></span>
         </div>
@@ -80,7 +80,7 @@
             <!-- <div>
               <img :src="item.image" alt="" width="100" height="100" />
             </div> -->
-            <div><span class="font-s" v-html="item.nickname"></span></div>
+            <div><span class="font-s " v-html="item.nickname"></span></div>
           </van-button>
         </van-list>
       </div>
@@ -228,4 +228,16 @@ export default {
   padding: 14px;
   border-color: #7c7878 !important;
 }
+.map {
+  position: absolute;
+  width: 83px;
+  height: 54px;
+  text-align: center;
+  line-height: 27px;
+  .font-weizhi{
+    position: relative;
+    top: 12px;
+  }
+}
+
 </style>

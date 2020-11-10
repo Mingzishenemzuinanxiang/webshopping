@@ -1,12 +1,10 @@
 <template>
   <div>
     <router-view />
-    <van-tabbar v-model="$route.meta.path" @change="onChange">
+    <van-tabbar v-model="home" @change="onChange" safe-area-inset-bottom>
       <van-tabbar-item name="home" icon="shop-o">商城</van-tabbar-item>
       <van-tabbar-item name="type" icon="wap-nav">分类</van-tabbar-item>
-      <van-tabbar-item name="cart" icon="shopping-cart-o"
-        >购物车</van-tabbar-item
-      >
+      <van-tabbar-item name="cart" icon="shopping-cart-o">购物车</van-tabbar-item>
       <van-tabbar-item name="my" icon="contact">我的</van-tabbar-item>
     </van-tabbar>
   </div>
@@ -17,7 +15,9 @@ export default {
   name: "",
   props: {},
   data() {
-    return {};
+    return {
+      home:'home'
+    };
   },
   components: {
     //注册组件
@@ -27,6 +27,7 @@ export default {
   },
   methods: {
     onChange(index) {
+      this.home = index
       this.$router.push({ name: index });
     },
    

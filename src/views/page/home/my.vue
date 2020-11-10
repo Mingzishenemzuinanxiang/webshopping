@@ -21,7 +21,6 @@ export default {
 //内部方法
 },
  mounted() {
-     this.getData()
 //生命周期--已加载
 },
  computed:{
