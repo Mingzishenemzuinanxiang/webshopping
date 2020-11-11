@@ -99,6 +99,7 @@
 2020-11-10 08:40:33,204 INFO 6824 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app.js"
 2020-11-10 08:40:33,205 INFO 6824 [egg-watcher:agent] watcher start success
 2020-11-10 08:40:33,243 INFO 6824 [egg:core] dump config after ready, 11ms
+<<<<<<< HEAD
 2020-11-10 21:47:49,707 INFO 18252 [egg:logger] init all loggers with options: {"dir":"E:\\webtest\\vueshopping\\webshopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
 2020-11-10 21:47:49,713 INFO 18252 [egg:core] dump config after load, 3ms
 2020-11-10 21:47:49,766 INFO 18252 [egg-watcher] Start watching: ["E:\\webtest\\vueshopping\\webshopping\\server\\app","E:\\webtest\\vueshopping\\webshopping\\server\\config","E:\\webtest\\vueshopping\\webshopping\\server\\mocks","E:\\webtest\\vueshopping\\webshopping\\server\\mocks_proxy","E:\\webtest\\vueshopping\\webshopping\\server\\app.js"]
@@ -151,3 +152,26 @@
 2020-11-10 21:49:30,982 INFO 18252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\webtest\\vueshopping\\webshopping\\server\\app\\model\\goods.json","stat":{"dev":67287610,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976830424,"size":18753,"blocks":40,"atimeMs":1605016170980.1033,"mtimeMs":1605012198914.2605,"ctimeMs":1605012198914.2605,"birthtimeMs":1605012198914.2605,"atime":"2020-11-10T13:49:30.980Z","mtime":"2020-11-10T12:43:18.914Z","ctime":"2020-11-10T12:43:18.914Z","birthtime":"2020-11-10T12:43:18.914Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-11-10 21:49:30,989 INFO 18252 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\webtest\\vueshopping\\webshopping\\server\\app\\model\\goods2.json","stat":{"dev":67287610,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976830425,"size":1447794,"blocks":2832,"atimeMs":1605016170988.104,"mtimeMs":1605012198919.26,"ctimeMs":1605012198919.26,"birthtimeMs":1605012198919.26,"atime":"2020-11-10T13:49:30.988Z","mtime":"2020-11-10T12:43:18.919Z","ctime":"2020-11-10T12:43:18.919Z","birthtime":"2020-11-10T12:43:18.919Z"},"remove":false,"isDirectory":false,"isFile":true}
 2020-11-10 21:49:33,861 WARN 18252 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+=======
+2020-11-10 08:43:48,990 INFO 8128 [egg:logger] init all loggers with options: {"dir":"D:\\wokepoj\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-10 08:43:49,006 INFO 8128 [egg:core] dump config after load, 9ms
+2020-11-10 08:43:49,189 INFO 8128 [egg-watcher] Start watching: ["D:\\wokepoj\\shopping\\server\\app","D:\\wokepoj\\shopping\\server\\config","D:\\wokepoj\\shopping\\server\\mocks","D:\\wokepoj\\shopping\\server\\mocks_proxy","D:\\wokepoj\\shopping\\server\\app.js"]
+2020-11-10 08:43:49,189 INFO 8128 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app"
+2020-11-10 08:43:49,190 INFO 8128 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\config"
+2020-11-10 08:43:49,190 INFO 8128 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks"
+2020-11-10 08:43:49,191 INFO 8128 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks_proxy"
+2020-11-10 08:43:49,191 INFO 8128 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app.js"
+2020-11-10 08:43:49,192 INFO 8128 [egg-watcher:agent] watcher start success
+2020-11-10 08:43:49,240 INFO 8128 [egg:core] dump config after ready, 19ms
+2020-11-10 18:15:56,344 WARN 8128 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+>>>>>>> 无
+2020-11-11 08:40:30,542 INFO 3112 [egg:logger] init all loggers with options: {"dir":"D:\\wokepoj\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-11 08:40:30,554 INFO 3112 [egg:core] dump config after load, 7ms
+2020-11-11 08:40:30,709 INFO 3112 [egg-watcher] Start watching: ["D:\\wokepoj\\shopping\\server\\app","D:\\wokepoj\\shopping\\server\\config","D:\\wokepoj\\shopping\\server\\mocks","D:\\wokepoj\\shopping\\server\\mocks_proxy","D:\\wokepoj\\shopping\\server\\app.js"]
+2020-11-11 08:40:30,709 INFO 3112 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app"
+2020-11-11 08:40:30,710 INFO 3112 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\config"
+2020-11-11 08:40:30,711 INFO 3112 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks"
+2020-11-11 08:40:30,711 INFO 3112 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks_proxy"
+2020-11-11 08:40:30,712 INFO 3112 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app.js"
+2020-11-11 08:40:30,715 INFO 3112 [egg-watcher:agent] watcher start success
+2020-11-11 08:40:30,762 INFO 3112 [egg:core] dump config after ready, 11ms
