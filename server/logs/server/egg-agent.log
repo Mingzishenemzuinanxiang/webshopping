@@ -175,3 +175,23 @@
 2020-11-11 08:40:30,712 INFO 3112 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app.js"
 2020-11-11 08:40:30,715 INFO 3112 [egg-watcher:agent] watcher start success
 2020-11-11 08:40:30,762 INFO 3112 [egg:core] dump config after ready, 11ms
+2020-11-12 08:32:20,739 INFO 5648 [egg:logger] init all loggers with options: {"dir":"D:\\wokepoj\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-12 08:32:20,753 INFO 5648 [egg:core] dump config after load, 7ms
+2020-11-12 08:32:20,887 INFO 5648 [egg-watcher] Start watching: ["D:\\wokepoj\\shopping\\server\\app","D:\\wokepoj\\shopping\\server\\config","D:\\wokepoj\\shopping\\server\\mocks","D:\\wokepoj\\shopping\\server\\mocks_proxy","D:\\wokepoj\\shopping\\server\\app.js"]
+2020-11-12 08:32:20,887 INFO 5648 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app"
+2020-11-12 08:32:20,887 INFO 5648 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\config"
+2020-11-12 08:32:20,888 INFO 5648 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks"
+2020-11-12 08:32:20,888 INFO 5648 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks_proxy"
+2020-11-12 08:32:20,888 INFO 5648 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app.js"
+2020-11-12 08:32:20,889 INFO 5648 [egg-watcher:agent] watcher start success
+2020-11-12 08:32:20,921 INFO 5648 [egg:core] dump config after ready, 13ms
+2020-11-12 09:51:16,586 INFO 5448 [egg:logger] init all loggers with options: {"dir":"D:\\wokepoj\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-11-12 09:51:16,602 INFO 5448 [egg:core] dump config after load, 8ms
+2020-11-12 09:51:16,976 INFO 5448 [egg-watcher] Start watching: ["D:\\wokepoj\\shopping\\server\\app","D:\\wokepoj\\shopping\\server\\config","D:\\wokepoj\\shopping\\server\\mocks","D:\\wokepoj\\shopping\\server\\mocks_proxy","D:\\wokepoj\\shopping\\server\\app.js"]
+2020-11-12 09:51:16,976 INFO 5448 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app"
+2020-11-12 09:51:16,977 INFO 5448 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\config"
+2020-11-12 09:51:16,978 INFO 5448 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks"
+2020-11-12 09:51:16,980 INFO 5448 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\mocks_proxy"
+2020-11-12 09:51:16,980 INFO 5448 [egg-watcher] Start watching: "D:\\wokepoj\\shopping\\server\\app.js"
+2020-11-12 09:51:16,982 INFO 5448 [egg-watcher:agent] watcher start success
+2020-11-12 09:51:17,080 INFO 5448 [egg:core] dump config after ready, 40ms

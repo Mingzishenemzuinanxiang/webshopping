@@ -88,3 +88,15 @@
 2020-11-11 08:40:40,985 INFO 3112 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71359019ms at 2020-11-12 04:30:00.004
 2020-11-11 08:40:40,985 INFO 3112 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 55159015ms at 2020-11-12 00:00:00.000
 2020-11-11 08:40:40,986 INFO 3112 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 55160015ms at 2020-11-12 00:00:01.001
+2020-11-12 08:32:23,888 INFO 5728 [egg-schedule]: register schedule D:\wokepoj\shopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-12 08:32:23,888 INFO 5728 [egg-schedule]: register schedule D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-12 08:32:23,888 INFO 5728 [egg-schedule]: register schedule D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-12 08:32:26,059 INFO 5648 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71853945ms at 2020-11-13 04:30:00.004
+2020-11-12 08:32:26,060 INFO 5648 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 55653941ms at 2020-11-13 00:00:00.001
+2020-11-12 08:32:26,060 INFO 5648 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 55654940ms at 2020-11-13 00:00:01.000
+2020-11-12 09:51:25,511 INFO 2036 [egg-schedule]: register schedule D:\wokepoj\shopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-12 09:51:25,511 INFO 2036 [egg-schedule]: register schedule D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-12 09:51:25,511 INFO 2036 [egg-schedule]: register schedule D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-12 09:51:29,530 INFO 5448 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67110474ms at 2020-11-13 04:30:00.003
+2020-11-12 09:51:29,530 INFO 5448 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 50910470ms at 2020-11-13 00:00:00.000
+2020-11-12 09:51:29,531 INFO 5448 [Timer] D:\wokepoj\shopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50911470ms at 2020-11-13 00:00:01.001
