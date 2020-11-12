@@ -1,7 +1,7 @@
 <template>
   <div ref="wrapper">
     <div class="mag-10">
-      <div class="p-flex">
+      <div class="p-flex z-99">
         <van-button round type="default" @click="utils.go(-1)"
           ><van-icon name="arrow-left"
         /></van-button>
@@ -178,5 +178,8 @@ export default {
 }
 .mag-10 {
   margin: 25px;
+}
+.z-99{
+  z-index: 9;
 }
 </style>

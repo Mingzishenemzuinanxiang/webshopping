@@ -83,7 +83,6 @@ export default {
 <style lang='scss' scoped>
 .goods-card {
   margin: 0;
-  // background-color: @white;
 }
 
 .delete-button {
