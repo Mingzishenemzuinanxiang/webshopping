@@ -48,16 +48,15 @@ export default {
               message: "确定删除吗？",
             })
             .then(() => {
-              this.goodsLists = this.utils.getLocalStorage('collection').filter(item=>{
+              this.goodsLists = this.utils.getLocalStorage('record').filter(item=>{
                   return item.id!==name
               });
 
-              let i = this.utils.getLocalStorage('collection').filter(item=>{
+              let i = this.utils.getLocalStorage('record').filter(item=>{
                   return item.id===name
               })
-              this.utils.delLocalStorage('collection',i[0])
+              this.utils.delLocalStorage('record',i[0])
               instance.close();
-              this.$api.getcancelCollection({id:name}).then(res=>{})
             });
           break;
       }
@@ -65,7 +64,7 @@ export default {
     //内部方法
   },
   mounted() {
-    this.goodsLists = this.utils.getLocalStorage('collection')
+    this.goodsLists = this.utils.getLocalStorage('record')
     //生命周期--已加载
   },
   computed: {
