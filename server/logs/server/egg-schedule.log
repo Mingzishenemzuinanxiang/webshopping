@@ -115,3 +115,18 @@
 2020-11-12 20:07:56,661 INFO 2408 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
 2020-11-12 20:07:56,661 INFO 2408 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
 2020-11-12 20:07:56,661 INFO 2408 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-14 22:49:41,657 INFO 19464 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-14 22:49:41,657 INFO 19464 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-14 22:49:41,657 INFO 19464 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-14 22:49:43,085 INFO 15840 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-14 22:49:43,085 INFO 15840 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-14 22:49:43,085 INFO 15840 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-14 22:49:49,772 INFO 13900 [Timer] E:\webtest\vueshopping\webshopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 20410230ms at 2020-11-15 04:30:00.002
+2020-11-14 22:49:49,772 INFO 13900 [Timer] E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js next time will execute after 4210228ms at 2020-11-15 00:00:00.000
+2020-11-14 22:49:49,772 INFO 13900 [Timer] E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 4211228ms at 2020-11-15 00:00:01.000
+2020-11-14 22:49:51,259 INFO 18512 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-14 22:49:51,259 INFO 18512 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-14 22:49:51,259 INFO 18512 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js
+2020-11-14 22:49:54,057 INFO 12692 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-multipart@2.10.3@egg-multipart\app\schedule\clean_tmpdir.js
+2020-11-14 22:49:54,057 INFO 12692 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\clean_log.js
+2020-11-14 22:49:54,057 INFO 12692 [egg-schedule]: register schedule E:\webtest\vueshopping\webshopping\server\node_modules\_egg-logrotator@3.1.0@egg-logrotator\app\schedule\rotate_by_file.js

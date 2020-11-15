@@ -64,7 +64,7 @@
       <van-cell title="全部订单" size="large" @click="utils.to('1')" icon="description" is-link />
       <van-cell title="收藏商品" size="large" @click="utils.to('collection')" icon="star-o" is-link />
       <van-cell title="地址管理" size="large" @click="utils.to('1')" icon="location-o" is-link />
-      <van-cell title="最近浏览" size="large" @click="utils.to('1')" icon="eye-o" is-link />
+      <van-cell title="最近浏览" size="large" @click="utils.to('browse')" icon="eye-o" is-link />
     </div>
   </div>
 </template>

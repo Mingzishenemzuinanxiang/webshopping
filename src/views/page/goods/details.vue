@@ -1,11 +1,11 @@
 <template>
   <div ref="wrapper">
-    <div class="mag-10">
-      <div class="p-flex z-99">
-        <van-button round type="default" @click="utils.go(-1)"
-          ><van-icon name="arrow-left"
-        /></van-button>
-      </div>
+    <div class="p-flex z-99 back">
+      <van-button round type="default" @click="utils.go(-1)"
+        ><van-icon name="arrow-left"
+      /></van-button>
+    </div>
+    <div class="mag-10" v-if="details">
       <div>
         <img class="img-100" :src="details.image" alt="" />
       </div>
@@ -49,14 +49,20 @@
           <van-tab title="商品评价"></van-tab>
         </van-tabs>
       </div>
+      <van-goods-action>
+        <van-goods-action-icon icon="chat-o" text="客服" color="#07c160" />
+        <van-goods-action-icon icon="cart-o" text="购物车" />
+        <van-goods-action-button type="warning" text="加入购物车" />
+        <van-goods-action-button type="danger" text="立即购买" @click="push" />
+      </van-goods-action>
     </div>
-
-    <van-goods-action>
-      <van-goods-action-icon icon="chat-o" text="客服" color="#07c160" />
-      <van-goods-action-icon icon="cart-o" text="购物车" />
-      <van-goods-action-button type="warning" text="加入购物车" />
-      <van-goods-action-button type="danger" text="立即购买" @click="push" />
-    </van-goods-action>
+    <div v-else>
+      <van-empty
+        class="custom-image"
+        image="https://img.yzcdn.cn/vant/custom-empty-image.png"
+        description=" 该商品已下架了啊！"
+      />
+    </div>
   </div>
 </template>
 
@@ -101,7 +107,7 @@ export default {
 
     //收藏存储在页面上
     is_coll(item, status) {
-      this.utils.addLocalStorage('collection',item)
+      this.utils.addLocalStorage("collection", item);
     },
     coll() {
       this.$api.getCollection(this.details).then((res) => {
@@ -123,12 +129,23 @@ export default {
       let bl = i ? this.coll : this.delcollection;
       this.utils.checkLogin(bl);
     },
+  //添加浏览记录
+    addbrowse(){
+      this.utils.addLocalStorage('record',this.details)
+    },
 
     getData(id) {
       this.$api.getGoodsData(id).then((res) => {
-        this.goods = res.goods;
-        this.details = res.goods.goodsOne;
-        this.utils.checkLogin(this.getshoucang);
+        if (res.code === 200) {
+          this.goods = res.goods;
+          this.details = res.goods.goodsOne;
+          //添加浏览记录
+          this.addbrowse()
+          this.utils.checkLogin(this.getshoucang);
+        }else{
+          this.$toast.fail('该商品已下架')
+          this.utils.go(-1)
+        }
       });
     },
     //直接购买赋值
@@ -179,7 +196,14 @@ export default {
 .mag-10 {
   margin: 25px;
 }
-.z-99{
+.back {
+  margin: 10px;
+}
+.z-99 {
   z-index: 9;
+}
+.custom-image .van-empty__image {
+  width: 90px;
+  height: 90px;
 }
 </style>

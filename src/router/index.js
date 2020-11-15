@@ -82,6 +82,17 @@ const routes = [{
                     title: "我的收藏",
                 },
             },
+            {
+                path: '/browse',
+                name: 'browse',
+                component: () =>
+                    import ('@/views/page/my/browse'),
+                meta: {
+                    title: "我的浏览",
+                    message:"您还没有浏览过商品详情,快去看看吧"
+
+                },
+            },
 
         ]
     },
