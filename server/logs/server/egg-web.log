@@ -1,0 +1,17 @@
+2020-11-16 08:35:33,079 INFO 3540 [egg:logger] init all loggers with options: {"dir":"D:\\wokepoj\\shopping\\server\\logs\\server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-11-16 08:35:33,164 INFO 3540 [egg-multipart] stream mode enable
+2020-11-16 08:35:35,009 INFO 3540 [egg-mongoose] connecting mongodb://127.0.0.1/shoppingMall
+2020-11-16 08:35:36,808 INFO 3540 [egg-static] starting static serve /public/ -> D:\wokepoj\shopping\server\app\public
+2020-11-16 08:35:36,820 INFO 3540 [egg-security] use methodnoallow middleware
+2020-11-16 08:35:36,823 INFO 3540 [egg-security] use noopen middleware
+2020-11-16 08:35:36,831 INFO 3540 [egg-security] use nosniff middleware
+2020-11-16 08:35:36,834 INFO 3540 [egg-security] use xssProtection middleware
+2020-11-16 08:35:36,837 INFO 3540 [egg-security] use xframe middleware
+2020-11-16 08:35:36,840 INFO 3540 [egg-security] use dta middleware
+2020-11-16 08:35:36,840 INFO 3540 [egg-security] compose 6 middlewares into one security middleware
+2020-11-16 08:35:36,916 INFO 3540 [egg:core] dump config after load, 12ms
+2020-11-16 08:35:36,922 INFO 3540 [egg-mongoose] starting...
+2020-11-16 08:35:37,069 INFO 3540 [egg-mongoose] mongodb://127.0.0.1/shoppingMall connected successfully
+2020-11-16 08:35:37,099 INFO 3540 [egg-mongoose] instance[0] start successfully
+2020-11-16 08:35:37,106 INFO 3540 [egg-watcher:application] watcher start success
+2020-11-16 08:35:37,136 INFO 3540 [egg:core] dump config after ready, 25ms

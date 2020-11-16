@@ -6,3 +6,17 @@ name: "ClusterClientNoResponseError"
 pid: 13900
 hostname: DoushaHome
 
+2020-11-16 11:02:41,335 ERROR 3540 [-/127.0.0.1/-/36ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ cid: [ '24afea564e5248b5a2bc59da95f09911' ] }" at path "cid" for model "ShopList"
+    at model.Query.exec (D:\wokepoj\shopping\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4385:21)
+    at model.Query.Query.then (D:\wokepoj\shopping\server\node_modules\_mongoose@5.10.13@mongoose\lib\query.js:4477:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+messageFormat: undefined
+stringValue: "\"{ cid: [ '24afea564e5248b5a2bc59da95f09911' ] }\""
+kind: "string"
+value: {"cid":["24afea564e5248b5a2bc59da95f09911"]}
+path: "cid"
+reason: null
+pid: 3540
+hostname: stucd149b
+
