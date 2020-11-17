@@ -20,3 +20,41 @@ reason: null
 pid: 3540
 hostname: stucd149b
 
+2020-11-16 17:24:39,892 ERROR 3540 [-/127.0.0.1/-/15ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\wokepoj\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\wokepoj\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\wokepoj\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\wokepoj\shopping\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\wokepoj\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\wokepoj\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 3540
+hostname: stucd149b
+
+2020-11-16 17:26:34,305 ERROR 3540 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\wokepoj\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\wokepoj\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\wokepoj\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\wokepoj\shopping\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\wokepoj\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\wokepoj\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 3540
+hostname: stucd149b
+
