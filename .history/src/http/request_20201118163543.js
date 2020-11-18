@@ -139,7 +139,7 @@ let Api = {
     delAddress(datas) {
         return HttpRequest.getRequest({
             method: "post",
-            url: "/deleteAddress",
+            url: "/address",
             data: datas
         });
     },

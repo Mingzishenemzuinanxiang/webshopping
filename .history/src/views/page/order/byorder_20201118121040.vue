@@ -60,6 +60,7 @@ export default {
         count: this.num,
         totalPrice: this.total,
         idDirect: true,
+        present_price:0
       };
       this.$api.getBybuy(info).then((res) => {
         this.utils.message(res, -1);

@@ -91,7 +91,7 @@ export default {
   mounted() {
     this.getAddress();
     this.getOrder();
-    let info = this.$route.query.data||this.$route.params.data
+    let info = this.$route.query||this.$route.params
     console.log(JSON.parse(info) );
     //生命周期--已加载
   },
