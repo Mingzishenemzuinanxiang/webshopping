@@ -5,14 +5,14 @@
     </div>
 
     <div v-else>
-      <div class="flex W100">
+      <div class="flex W100" @click="utils.to('addresslists')">
         <div class="w100">
           <van-icon name="location-o" size="30" />
         </div>
         <div>
           <div class="flex name mag-10">
-            <div>收件人:奥科吉索饭</div>
-            <div>18384110672</div>
+            <div>收件人:{{address.name}}</div>
+            <div>{{address.tel}}</div>
           </div>
           <div class="mag-10">
             <div>收件地址:{{ address.address }}</div>
@@ -70,6 +70,7 @@ export default {
         this.address = JSON.parse(sessionStorage.getItem("orderaddress"));
         sessionStorage.removeItem("orderaddress");
       } else {
+        console.log(2);
         this.$api.getDefaultAddress().then((res) => {
           if (res.code === 200) {
             this.address = res.defaultAdd;
@@ -92,7 +93,6 @@ export default {
     this.getAddress();
     this.getOrder();
     let info = this.$route.query.data||this.$route.params.data
-    console.log(JSON.parse(info) );
     //生命周期--已加载
   },
   computed: {

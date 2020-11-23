@@ -257,3 +257,81 @@ hostname: stucd149b
 pid: 6804
 hostname: stucd149b
 
+2020-11-18 16:51:10,867 ERROR 6804 [-/127.0.0.1/-/11ms POST /v1/goodsOne/comment] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.comment (D:\wokepoj\shopping\server\app\controller\api\operatingGoods.js:247:24)
+    at Object.callFn (D:\wokepoj\shopping\server\node_modules\_egg-core@4.20.0@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\wokepoj\shopping\server\node_modules\_egg-core@4.20.0@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\wokepoj\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\wokepoj\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\wokepoj\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\wokepoj\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\wokepoj\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\wokepoj\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\wokepoj\shopping\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (D:\wokepoj\shopping\server\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:195:33)
+    at dispatch (D:\wokepoj\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\wokepoj\shopping\server\app\middleware\isLogin.js:15:19
+    at dispatch (D:\wokepoj\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\wokepoj\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\wokepoj\shopping\server\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+
+pid: 6804
+hostname: stucd149b
+
+2020-11-19 17:56:31,624 ERROR 5744 [-/127.0.0.1/-/9ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\wokepoj\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\wokepoj\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\wokepoj\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\wokepoj\shopping\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\wokepoj\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\wokepoj\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5744
+hostname: stucd149b
+
+2020-11-19 17:56:35,639 ERROR 5744 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\wokepoj\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\wokepoj\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\wokepoj\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\wokepoj\shopping\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\wokepoj\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\wokepoj\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 5744
+hostname: stucd149b
+
+2020-11-20 15:08:17,611 ERROR 6212 [-/127.0.0.1/-/24ms POST /v1/order] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.order (D:\wokepoj\shopping\server\app\controller\api\operatingGoods.js:184:40)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async D:\wokepoj\shopping\server\app\middleware\isLogin.js:15:13
+    at async D:\wokepoj\shopping\server\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\wokepoj\shopping\server\node_modules\_egg-security@2.8.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\wokepoj\shopping\server\node_modules\_koa-session@6.1.0@koa-session\index.js:41:7)
+    at async bodyParser (D:\wokepoj\shopping\server\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+    at async D:\wokepoj\shopping\server\node_modules\_koa-static-cache@5.1.4@koa-static-cache\index.js:39:63
+    at async notfound (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\notfound.js:5:5)
+    at async meta (D:\wokepoj\shopping\server\node_modules\_egg@2.29.1@egg\app\middleware\meta.js:17:5)
+
+pid: 6212
+hostname: stucd149b
+

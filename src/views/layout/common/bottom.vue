@@ -44,6 +44,7 @@ export default {
     this.getNum();
     setInterval(() => {
       this.home = this.$route.name
+      // 
     }, 500);
     //生命周期--已加载
   },

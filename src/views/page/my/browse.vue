@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="!goodsLists"><van-empty image="search" description="您还没有收藏,快去浏览商品吧" /></div>
+    <div v-if="!goodsLists"><van-empty image="search" description="您还没有浏览,快去浏览商品吧" /></div>
     <div v-else>
       <van-swipe-cell
         v-for="(item, index) in goodsLists"

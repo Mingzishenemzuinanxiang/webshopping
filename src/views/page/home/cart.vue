@@ -52,7 +52,7 @@ export default {
   props: {},
   data() {
     return {
-      checkAll:false,
+      checkAll: false,
       cartlists: [],
       del: false,
       isPullUpLoad: false,
@@ -65,52 +65,78 @@ export default {
   methods: {
     //修改数量
     edit(item) {
+      item.id = item.cid
       this.$api.getEditCart(item).then((res) => {
         this.utils.message(res);
       });
     },
     //删除选中项
     delcheck() {
-      this.$dialog.confirm({
-        message: "确定删除该商品吗",
-      }).then(() => {
-        let cid = [];
+      this.$dialog
+        .confirm({
+          message: "确定删除该商品吗",
+        })
+        .then(() => {
+          let cid = [];
+          this.cartlists.map((item) => {
+            if (item.check) {
+              cid.push(item.cid);
+            }
+          });
+          this.$api.getDelCart(cid).then((res) => {
+            if (res.code === 200) {
+              this.$toast.success(res.msg);
+              this.cartlists = this.cartlists.filter((item) => {
+                return item.check === false;
+              });
+            }
+          });
+        });
+    },
+    checka() {
+      // this.checkAll ? false:true
+      // this.cartlists.map(item=>{
+      //   item.check = this.checkAll
+      // })
+      let chenk = false;
+      this.cartlists.map((item) => {
+        if (item.check) {
+          chenk = true;
+        }
+      });
+      if (chenk) {
         this.cartlists.map((item) => {
           if (item.check) {
-            cid.push(item.cid);
+            item.check = false;
+          } else {
+            item.check = true;
           }
         });
-        this.$api.getDelCart(cid).then((res) => {
-          if (res.code === 200) {
-            this.$toast.success(res.msg);
-            this.cartlists = this.cartlists.filter((item) => {
-              return item.check === false;
-            });
-          }
+      } else {
+        this.checkAll ? false : true;
+        this.cartlists.map((item) => {
+          item.check = this.checkAll;
         });
-      });
-    },
-    checka(){
-      this.checkAll ? false:true
-      this.cartlists.map(item=>{
-        item.check = this.checkAll
-      })
+      }
     },
     onSubmit() {
-      let i = false
-      this.cartlists.map(item=>{
-        if(item.check){
-          i = true
+      let i = false;
+      this.cartlists.map((item) => {
+        if (item.check) {
+          i = true;
         }
-      })
+      });
       if (!i) {
-        this.$toast.fail('请选择需要购买的商品')
-        return
+        this.$toast.fail("请选择需要购买的商品");
+        return;
       }
-      let lists = this.cartlists.filter(item=>{
-        return item.check ===true
-      })
-      this.utils.todata('byorder',JSON.stringify(lists))
+      let lists = this.cartlists.filter((item) => {
+        return item.check === true;
+      });
+      this.$router.push({
+        name: "byorder",
+        query: { data: JSON.stringify(lists) },
+      });
     },
     initview() {
       this.bscroll = new BScroll(this.$refs.wrapper, {
@@ -136,24 +162,23 @@ export default {
   computed: {
     total() {
       let price = 0;
-       this.checkAll = true
+      this.checkAll = true;
       this.cartlists.map((item) => {
         if (item.check) {
           price += item.present_price * item.count;
-        }else{
-          this.checkAll = false
+        } else {
+          this.checkAll = false;
         }
-        this.$set(item,'num',item.count)
-        this.$set(item,'id',item._id)
-        this.$set(item,'total',(item.count * item.present_price)*100)
+        this.$set(item, "num", item.count);
+        this.$set(item, "id", item._id);
+        this.$set(item, "total", item.count * item.present_price * 100);
       });
       return price * 100;
     },
-  
+
     //计算数学
   },
   watch: {
-
     //数据监听
   },
   filters: {

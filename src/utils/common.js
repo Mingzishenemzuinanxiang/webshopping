@@ -95,11 +95,11 @@ export default {
                 case 'search':
                 case 'record':
                     arr.map(item => {
-                        if (item === value) {
+                        if (JSON.stringify(item) === JSON.stringify(value)) {
                             k = false
                         }
                     })
-                    k && arr.push(value);
+                    if (k) arr.push(value);
                     break;
                 case 'collection':
                     arr = this.delEeidList(arr, value);

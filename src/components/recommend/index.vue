@@ -87,18 +87,20 @@ export default {
         id: item.goodsId,
         mallPrice: item.mallPrice,
       };
-      this.$api.getEditCart(info).then((res) => {
-        console.log("res :>> ", res);
-        if (res.code === 200) {
-          this.$toast.success(res.msg);
-        } else {
-          this.$toast.fail(res.msg);
-        }
+      this.$api.setCart(info).then((res) => {
+        this.utils.message(res)
       });
     },
     // 直接购买
     gouwu(item) {
-      console.log(item);
+      this.$api.getGoodsData(item.goodsId).then(res=>{
+          if (res.code===200) {
+            res.goods.goodsOne.total = res.goods.goodsOne.present_price * 100
+            res.goods.goodsOne.num = 1
+            this.utils.todata({url:'byorder',data:JSON.stringify(res.goods.goodsOne)})
+          }
+      })
+      
     },
     initview() {
       this.bscroll = new BScroll(this.$refs.wrapper, {
